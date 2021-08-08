@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20F83871-E082-4142-BE39-98B49DD107D0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlowerShop</RootNamespace>
+    <AssemblyName>FlowerShop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\accordions.css" />
+    <Content Include="css\alerts.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\buttons.css" />
+    <Content Include="css\c3\c3.min.css" />
+    <Content Include="css\calendar\fullcalendar.min.css" />
+    <Content Include="css\calendar\fullcalendar.print.min.css" />
+    <Content Include="css\chosen\bootstrap-chosen.css" />
+    <Content Include="css\chosen\chosen-sprite.png" />
+    <Content Include="css\code-editor\ambiance.css" />
+    <Content Include="css\code-editor\codemirror.css" />
+    <Content Include="css\colorpicker\colorpicker.css" />
+    <Content Include="css\cropper\cropper.min.css" />
+    <Content Include="css\data-table\bootstrap-editable.css" />
+    <Content Include="css\data-table\bootstrap-table.css" />
+    <Content Include="css\datapicker\colorpicker.css" />
+    <Content Include="css\datapicker\datepicker3.css" />
+    <Content Include="css\dropzone\dropzone.css" />
+    <Content Include="css\duallistbox\bootstrap-duallistbox.min.css" />
+    <Content Include="css\editor\bootstrap-editable.css" />
+    <Content Include="css\editor\datetimepicker.css" />
+    <Content Include="css\editor\select2.css" />
+    <Content Include="css\editor\x-editor-style.css" />
+    <Content Include="css\educate-custon-icon.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\form.css" />
+    <Content Include="css\form\all-type-forms.css" />
+    <Content Include="css\form\themesaller-forms.css" />
+    <Content Include="css\ionRangeSlider\ion.rangeSlider.css" />
+    <Content Include="css\ionRangeSlider\ion.rangeSlider.skinFlat.css" />
+    <Content Include="css\ionRangeSlider\sprite-skin-flat.png" />
+    <Content Include="css\main.css" />
+    <Content Include="css\meanmenu.min.css" />
+    <Content Include="css\metisMenu\metisMenu-vertical.css" />
+    <Content Include="css\metisMenu\metisMenu.min.css" />
+    <Content Include="css\modals.css" />
+    <Content Include="css\morrisjs\morris.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\notifications\Lobibox.min.css" />
+    <Content Include="css\notifications\notifications.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\owl.transitions.css" />
+    <Content Include="css\preloader\preloader-style.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\scrollbar\jquery.mCustomScrollbar.min.css" />
+    <Content Include="css\select2\select2.min.css" />
+    <Content Include="css\summernote\summernote.css" />
+    <Content Include="css\tabs.css" />
+    <Content Include="css\touchspin\jquery.bootstrap-touchspin.min.css" />
+    <Content Include="css\tree-viewer\32px.png" />
+    <Content Include="css\tree-viewer\throbber.gif" />
+    <Content Include="css\tree-viewer\tree-viewer.css" />
+    <Content Include="CustomerDetails.aspx" />
+    <Content Include="CustomerForm.aspx" />
+    <Content Include="CustomerOutstanding.aspx" />
+    <Content Include="fonts\educate-icon.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="img\blog-details\1.jpg" />
+    <Content Include="img\clear.png" />
+    <Content Include="img\contact\1.jpg" />
+    <Content Include="img\contact\2.jpg" />
+    <Content Include="img\contact\3.jpg" />
+    <Content Include="img\contact\4.jpg" />
+    <Content Include="img\courses\1.jpg" />
+    <Content Include="img\courses\2.jpg" />
+    <Content Include="img\courses\3.jpg" />
+    <Content Include="img\cropper\1.jpg" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\flowerimage.jpg" />
+    <Content Include="img\FlowerShop1.jpg" />
+    <Content Include="img\FlowerShop2.jpg" />
+    <Content Include="img\green1.png" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\logo\logo.png" />
+    <Content Include="img\logo\logosn.png" />
+    <Content Include="img\notification\1.jpg" />
+    <Content Include="img\notification\2.jpg" />
+    <Content Include="img\notification\3.jpg" />
+    <Content Include="img\notification\4.jpg" />
+    <Content Include="img\notification\5.jpg" />
+    <Content Include="img\notification\6.jpg" />
+    <Content Include="img\product\book-1.jpg" />
+    <Content Include="img\product\book-2.jpg" />
+    <Content Include="img\product\book-3.jpg" />
+    <Content Include="img\product\book-4.jpg" />
+    <Content Include="img\product\pro4.jpg" />
+    <Content Include="img\product\profile-bg.jpg" />
+    <Content Include="img\profile\1.jpg" />
+    <Content Include="img\student\1.jpg" />
+    <Content Include="img\student\2.jpg" />
+    <Content Include="img\student\3.jpg" />
+    <Content Include="img\student\4.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\c3-charts\c3-active.js" />
+    <Content Include="js\c3-charts\c3.min.js" />
+    <Content Include="js\c3-charts\d3.min.js" />
+    <Content Include="js\calendar\fullcalendar-active.js" />
+    <Content Include="js\calendar\fullcalendar.min.js" />
+    <Content Include="js\calendar\moment.min.js" />
+    <Content Include="js\card.js" />
+    <Content Include="js\charts\area-chart.js" />
+    <Content Include="js\charts\bar-chart.js" />
+    <Content Include="js\charts\Chart.js" />
+    <Content Include="js\charts\line-chart.js" />
+    <Content Include="js\charts\rounded-chart.js" />
+    <Content Include="js\chart\jquery.peity.min.js" />
+    <Content Include="js\chart\peity-active.js" />
+    <Content Include="js\chosen\chosen-active.js" />
+    <Content Include="js\chosen\chosen.jquery.js" />
+    <Content Include="js\chosen\chosen.jquery.min.js" />
+    <Content Include="js\code-editor\code-editor-active.js" />
+    <Content Include="js\code-editor\code-editor.js" />
+    <Content Include="js\code-editor\codemirror.js" />
+    <Content Include="js\colorpicker\color-picker-active.js" />
+    <Content Include="js\colorpicker\jquery.spectrum.min.js" />
+    <Content Include="js\counterup\counterup-active.js" />
+    <Content Include="js\counterup\jquery.counterup.min.js" />
+    <Content Include="js\counterup\waypoints.min.js" />
+    <Content Include="js\cropper\cropper-actice.js" />
+    <Content Include="js\cropper\cropper.min.js" />
+    <Content Include="js\data-map\d3.min.js" />
+    <Content Include="js\data-map\data-maps-active.js" />
+    <Content Include="js\data-map\datamaps.all.min.js" />
+    <Content Include="js\data-map\topojson.js" />
+    <Content Include="js\data-table\bootstrap-editable.js" />
+    <Content Include="js\data-table\bootstrap-table-editable.js" />
+    <Content Include="js\data-table\bootstrap-table-export.js" />
+    <Content Include="js\data-table\bootstrap-table-resizable.js" />
+    <Content Include="js\data-table\bootstrap-table.js" />
+    <Content Include="js\data-table\colResizable-1.5.source.js" />
+    <Content Include="js\data-table\data-table-active.js" />
+    <Content Include="js\data-table\tableExport.js" />
+    <Content Include="js\datapicker\bootstrap-datepicker.js" />
+    <Content Include="js\datapicker\bootstrap-datepicker.min.js" />
+    <Content Include="js\datapicker\datepicker-active.js" />
+    <Content Include="js\datepicker\datepicker-active.js" />
+    <Content Include="js\datepicker\jquery-ui.min.js" />
+    <Content Include="js\dropzone\dropzone.js" />
+    <Content Include="js\duallistbox\duallistbox.active.js" />
+    <Content Include="js\duallistbox\jquery.bootstrap-duallistbox.js" />
+    <Content Include="js\e-payment.js" />
+    <Content Include="js\editable\bootstrap-datetimepicker.js" />
+    <Content Include="js\editable\bootstrap-editable.js" />
+    <Content Include="js\editable\jquery.mockjax.js" />
+    <Content Include="js\editable\mock-active.js" />
+    <Content Include="js\editable\moment.min.js" />
+    <Content Include="js\editable\select2.js" />
+    <Content Include="js\editable\xediable-active.js" />
+    <Content Include="js\form-validation\form-active.js" />
+    <Content Include="js\form-validation\jquery.form.min.js" />
+    <Content Include="js\form-validation\jquery.validate.min.js" />
+    <Content Include="js\google.maps\google.maps-active.js" />
+    <Content Include="js\icheck\icheck-active.js" />
+    <Content Include="js\icheck\icheck.min.js" />
+    <Content Include="js\input-mask\jasny-bootstrap.min.js" />
+    <Content Include="js\ionRangeSlider\ion.rangeSlider.active.js" />
+    <Content Include="js\ionRangeSlider\ion.rangeSlider.min.js" />
+    <Content Include="js\jquery-price-slider.js" />
+    <Content Include="js\jquery.maskedinput.min.js" />
+    <Content Include="js\jquery.meanmenu.js" />
+    <Content Include="js\jquery.payform.min.js" />
+    <Content Include="js\jquery.scrollUp.min.js" />
+    <Content Include="js\jquery.sticky.js" />
+    <Content Include="js\knob\jquery.knob.js" />
+    <Content Include="js\knob\knob-active.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\masking-active.js" />
+    <Content Include="js\metisMenu\metisMenu-active.js" />
+    <Content Include="js\metisMenu\metisMenu.min.js" />
+    <Content Include="js\morrisjs\home3-active.js" />
+    <Content Include="js\morrisjs\morris-active-pro.js" />
+    <Content Include="js\morrisjs\morris-active.js" />
+    <Content Include="js\morrisjs\morris.js" />
+    <Content Include="js\morrisjs\raphael-min.js" />
+    <Content Include="js\multiple-email\multiple-email-active.js" />
+    <Content Include="js\notifications\Lobibox.js" />
+    <Content Include="js\notifications\notification-active.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\password-meter\password-meter-active.js" />
+    <Content Include="js\password-meter\pwstrength-bootstrap.min.js" />
+    <Content Include="js\password-meter\zxcvbn.js" />
+    <Content Include="js\pdf\jquery.media.js" />
+    <Content Include="js\pdf\pdf-active.js" />
+    <Content Include="js\peity\jquery.peity.min.js" />
+    <Content Include="js\peity\peity-active.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\rangle-slider\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="js\rangle-slider\jquery-ui-touch-punch.min.js" />
+    <Content Include="js\rangle-slider\rangle-active.js" />
+    <Content Include="js\scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="js\scrollbar\mCustomScrollbar-active.js" />
+    <Content Include="js\select2\select2-active.js" />
+    <Content Include="js\select2\select2.full.min.js" />
+    <Content Include="js\sparkline\jquery.charts-sparkline.js" />
+    <Content Include="js\sparkline\jquery.sparkline.min.js" />
+    <Content Include="js\sparkline\sparkline-active.js" />
+    <Content Include="js\summernote\summernote-active.js" />
+    <Content Include="js\summernote\summernote.min.js" />
+    <Content Include="js\tab.js" />
+    <Content Include="js\tawk-chat.js" />
+    <Content Include="js\touchspin\jquery.bootstrap-touchspin.min.js" />
+    <Content Include="js\touchspin\touchspin-active.js" />
+    <Content Include="js\tree-line\jstree.active.js" />
+    <Content Include="js\tree-line\jstree.min.js" />
+    <Content Include="js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="js\vendor\modernizr-custom.js" />
+    <Content Include="js\wizard\jquery.steps.js" />
+    <Content Include="js\wizard\steps-active.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="ProductDetails.aspx" />
+    <Content Include="ProductForm.aspx" />
+    <Content Include="ProductStock.aspx" />
+    <Content Include="PurchaseBill.aspx" />
+    <Content Include="PurchaseBillDetail.aspx" />
+    <Content Include="PurchaseBillForm.aspx" />
+    <Content Include="PurchaseBillReport.aspx" />
+    <Content Include="PurchasePayment.aspx" />
+    <Content Include="RegistrationForm.aspx" />
+    <Content Include="SaleBillDetails.aspx" />
+    <Content Include="SaleBillForm.aspx" />
+    <Content Include="SaleBillReport.aspx" />
+    <Content Include="SalePayment.aspx" />
+    <Content Include="SellBill.aspx" />
+    <Content Include="style.css" />
+    <Content Include="SuppilerForm.aspx" />
+    <Content Include="SupplierDetails.aspx" />
+    <Content Include="SupplierOutstanding.aspx" />
+    <Content Include="UpdateCustomer.aspx" />
+    <Content Include="UpdateProduct.aspx" />
+    <Content Include="UpdateSuppiler.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerDetails.aspx.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerDetails.aspx.designer.cs">
+      <DependentUpon>CustomerDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerForm.aspx.cs">
+      <DependentUpon>CustomerForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.aspx.designer.cs">
+      <DependentUpon>CustomerForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerOutstanding.aspx.cs">
+      <DependentUpon>CustomerOutstanding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerOutstanding.aspx.designer.cs">
+      <DependentUpon>CustomerOutstanding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Extension.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master1.Master.cs">
+      <DependentUpon>Master1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master1.Master.designer.cs">
+      <DependentUpon>Master1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.designer.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductForm.aspx.cs">
+      <DependentUpon>ProductForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductForm.aspx.designer.cs">
+      <DependentUpon>ProductForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStock.aspx.cs">
+      <DependentUpon>ProductStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductStock.aspx.designer.cs">
+      <DependentUpon>ProductStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseBill.aspx.cs">
+      <DependentUpon>PurchaseBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseBill.aspx.designer.cs">
+      <DependentUpon>PurchaseBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseBillDetail.aspx.cs">
+      <DependentUpon>PurchaseBillDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseBillDetail.aspx.designer.cs">
+      <DependentUpon>PurchaseBillDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseBillForm.aspx.cs">
+      <DependentUpon>PurchaseBillForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseBillForm.aspx.designer.cs">
+      <DependentUpon>PurchaseBillForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseBillReport.aspx.cs">
+      <DependentUpon>PurchaseBillReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseBillReport.aspx.designer.cs">
+      <DependentUpon>PurchaseBillReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PurchasePayment.aspx.cs">
+      <DependentUpon>PurchasePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchasePayment.aspx.designer.cs">
+      <DependentUpon>PurchasePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationForm.aspx.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrationForm.aspx.designer.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaleBillDetails.aspx.cs">
+      <DependentUpon>SaleBillDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaleBillDetails.aspx.designer.cs">
+      <DependentUpon>SaleBillDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaleBillForm.aspx.cs">
+      <DependentUpon>SaleBillForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaleBillForm.aspx.designer.cs">
+      <DependentUpon>SaleBillForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaleBillReport.aspx.cs">
+      <DependentUpon>SaleBillReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaleBillReport.aspx.designer.cs">
+      <DependentUpon>SaleBillReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalePayment.aspx.cs">
+      <DependentUpon>SalePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalePayment.aspx.designer.cs">
+      <DependentUpon>SalePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SellBill.aspx.cs">
+      <DependentUpon>SellBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellBill.aspx.designer.cs">
+      <DependentUpon>SellBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuppilerForm.aspx.cs">
+      <DependentUpon>SuppilerForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuppilerForm.aspx.designer.cs">
+      <DependentUpon>SuppilerForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierDetails.aspx.cs">
+      <DependentUpon>SupplierDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SupplierDetails.aspx.designer.cs">
+      <DependentUpon>SupplierDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierOutstanding.aspx.cs">
+      <DependentUpon>SupplierOutstanding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SupplierOutstanding.aspx.designer.cs">
+      <DependentUpon>SupplierOutstanding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.aspx.cs">
+      <DependentUpon>UpdateCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomer.aspx.designer.cs">
+      <DependentUpon>UpdateCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProduct.aspx.cs">
+      <DependentUpon>UpdateProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateProduct.aspx.designer.cs">
+      <DependentUpon>UpdateProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSuppiler.aspx.cs">
+      <DependentUpon>UpdateSuppiler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateSuppiler.aspx.designer.cs">
+      <DependentUpon>UpdateSuppiler.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\bootstrap.min.css.map" />
+    <None Include="css\metisMenu\metisMenu.min.css.map" />
+    <None Include="css\summernote\fonts\summernote.eot" />
+    <None Include="css\summernote\fonts\summernote.ttf" />
+    <None Include="css\summernote\fonts\summernote.woff" />
+    <None Include="fonts\educate-icon.ttf" />
+    <None Include="fonts\educate-icon.woff" />
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="js\metisMenu\metisMenu.min.js.map" />
+    <Content Include="Master1.Master" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54883</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\hp\Documents\Visual Studio 2010\Projects\ProjectFlowerShop\ProjectFlowerShop\bin\ProjectFlowerShop.dll
+C:\Users\hp\Documents\Visual Studio 2010\Projects\ProjectFlowerShop\ProjectFlowerShop\bin\ProjectFlowerShop.pdb
+C:\Users\hp\Documents\Visual Studio 2010\Projects\ProjectFlowerShop\ProjectFlowerShop\obj\Debug\ProjectFlowerShop.dll
+C:\Users\hp\Documents\Visual Studio 2010\Projects\ProjectFlowerShop\ProjectFlowerShop\obj\Debug\ProjectFlowerShop.pdb
+C:\Users\hp\Documents\Visual Studio 2010\Projects\ProjectFlowerShop\ProjectFlowerShop\obj\Debug\ProjectFlowerShop.csprojResolveAssemblyReference.cache
